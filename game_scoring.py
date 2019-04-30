@@ -1,3 +1,11 @@
+import random
+
+
 class Game:
     def score(self):
-        return 300
+        score = 0
+
+        for x in range(10):
+            score = str(random.randint(0, 301))
+
+        return score
